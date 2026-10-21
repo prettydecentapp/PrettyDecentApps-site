@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pretty Decent Apps</title>
+<style>
+  :root { --bg: #0d0d12; --fg: #e8e8f0; --dim: #8a8aa0; --accent: #bb86fc; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--fg); font-family: -apple-system, "Segoe UI", Roboto, sans-serif; line-height: 1.6; padding: 2rem 1.25rem; max-width: 640px; margin: 0 auto; }
+  h1 { font-size: 2rem; margin-bottom: 0.25rem; }
+  h1 .accent { color: var(--accent); }
+  .tagline { color: var(--dim); margin-bottom: 2.5rem; }
+  .app { border: 1px solid #2a2a35; border-radius: 12px; padding: 1.25rem; margin-bottom: 1.25rem; }
+  .app h2 { font-size: 1.25rem; margin-bottom: 0.5rem; }
+  .app p { color: var(--dim); margin-bottom: 0.75rem; }
+  .app a { color: var(--accent); text-decoration: none; }
+  .app a:hover { text-decoration: underline; }
+  .links { margin-top: 0.5rem; font-size: 0.9rem; }
+  .links a { margin-right: 1rem; }
+  footer { margin-top: 3rem; color: var(--dim); font-size: 0.85rem; border-top: 1px solid #2a2a35; padding-top: 1rem; }
+  footer a { color: var(--dim); }
+</style>
+</head>
+<body>
+  <h1>Pretty <span class="accent">Decent</span> Apps</h1>
+  <p class="tagline">Small Android apps, built with care.</p>
+
+  <div class="app">
+    <h2>Auto DJ</h2>
+    <p>Your music library, mixed like a DJ. Auto DJ analyzes each song's tempo, key, and energy on your device, then chains compatible songs into an endless mix with beat-matched crossfades.</p>
+    <div class="links">
+      <a href="https://github.com/craighaymond/offbeat-dj">GitHub</a>
+      <a href="privacy-autodj.html">Privacy Policy</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2026 Pretty Decent LLC &middot; <a href="mailto:pretty.decent.apps@gmail.com">Contact</a>
+  </footer>
+</body>
+</html>
